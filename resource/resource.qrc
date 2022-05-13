@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>PPTX.png</file>
+    <file>file.png</file>
+    <file>pdf.png</file>
+    <file>word.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>allback.jpg</file>
+    <file>rule.jpg</file>
+    <file>warning.jpg</file>
+    <file>background.jpg</file>
+    <file>logo.jpg</file>
+  </qresource>
+</RCC>
