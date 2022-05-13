@@ -55,7 +55,7 @@
 - PyQt5-5.15.6;
 - PyQtDesigner-5.14.1;
 - pyqrc-1.0.3;
-1. function:
+2. function:
 - PyPDF2-1.27.12;
 - docx2pdf-0.1.8;
 - pdf2docx-0.5.3;
