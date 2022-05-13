@@ -47,17 +47,20 @@ class login_form(ui_form, QFrame):
             self.password_lineEdit.clear()
 
     def forget_password_pushButton_event(self):
-        pass
+        QtGui.QDesktopServices.openUrl(QtCore.QUrl(
+            "https://github.com/TengHui/FileHandle-of-PyQt5/blob/master/others/username_password.txt"))
 
     def register_pushButton_event(self):
-        pass
+        QtGui.QDesktopServices.openUrl(
+            QtCore.QUrl("https://github.com/TengHui/FileHandle-of-PyQt5/blob/master/others/username_password.txt"))
 
     def github_pushButton_event(self):
-        QtGui.QDesktopServices.openUrl(QtCore.QUrl("https://github.com/wp19991/pyqt5_example"))
-        pass
+        QtGui.QDesktopServices.openUrl(QtCore.QUrl("https://github.com/TengHui/FileHandle-of-PyQt5"))
 
     def phone_pushButton_event(self):
-        pass
+        QtGui.QDesktopServices.openUrl(
+            QtCore.QUrl("https://github.com/TengHui/FileHandle-of-PyQt5/blob/master/others/%E5%90%91%E5%AF%BC.md"))
 
     def email_pushButton_event(self):
-        pass
+        QtGui.QDesktopServices.openUrl(
+            QtCore.QUrl("https://github.com/TengHui/FileHandle-of-PyQt5/blob/master/others/mailbox"))
